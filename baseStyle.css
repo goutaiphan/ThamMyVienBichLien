@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('asset/PlayfairDisplay.ttf');
+}
+
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('asset/TimesNewRoman.ttf');
+}
+
+@font-face {
+    font-family: 'FairProsper';
+    src: url('asset/FairProsper.ttf')
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('asset/RobotoSlab.ttf')
+}
+
+* {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    background-image: url('asset/TriangleBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

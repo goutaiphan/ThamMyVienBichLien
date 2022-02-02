@@ -1,0 +1,30 @@
+#titleArea {
+    margin: 100px auto auto;
+}
+
+#titleArea p:nth-child(1) {
+    font-family: PlayfairDisplay, serif;
+    font-size: 25px;
+    transform: scale(1.05, 1);
+    background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#titleArea p:nth-child(2) {
+    margin: auto;
+    top: -20px;
+    font-family: FairProsper, serif;
+    font-size: 130px;
+    background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#intro {
+    margin: 0px auto 50px;
+    font-family: PlayfairDisplay, serif;
+    font-size: 17px;
+    transform: scale(1.05, 1);
+    line-height: 1.6;
+}
