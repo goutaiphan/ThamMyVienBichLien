@@ -1,6 +1,7 @@
 nav {
     display: table;
     margin: auto;
+    border-spacing: 0;
 }
 
 nav a {
@@ -32,6 +33,6 @@ nav a:hover {
 }
 
 nav a:hover::after {
-    transform: scaleX(1);
+    transform: scaleX(0.8);
     transform-origin: center;
 }
