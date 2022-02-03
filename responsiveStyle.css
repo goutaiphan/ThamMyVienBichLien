@@ -16,11 +16,11 @@
     }
 
     tr:first-child td:first-child {
-        width: 150px;
+        width: 120px;
     }
 
     td {
-        width: 150px;
+        width: 120px;
     }
 }
 
