@@ -9,19 +9,19 @@
     blockquote:before, blockquote:after {
         position: absolute;
         color: #78a6ce;
-        font-size: 80px;
+        font-size: 70px;
     }
 
     blockquote:before {
         content: '“';
-        left: -40px;
+        left: -45px;
         top: -50px;
     }
 
     blockquote:after {
         content: '”';
-        right: -25px;
-        top: 70px;
+        right: -30px;
+        top: 75px;
     }
 }
 
