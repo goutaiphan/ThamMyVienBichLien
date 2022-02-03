@@ -59,8 +59,7 @@ body {
 }
 
 #titleArea p:nth-child(2) {
-    margin: auto;
-    top: -20px;
+    margin: 30px auto 0;
     font-family: FairProsper, serif;
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
