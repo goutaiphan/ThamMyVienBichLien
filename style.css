@@ -34,20 +34,20 @@ table {
     padding-bottom: 15px;
 }
 
-tr:first-child td:first-child {
-    width: 200px;
-    padding: 15px;
-    font-family: PlayfairDisplay, serif;
-    font-size: 25px;
-}
-
-td:not(tr:first-child td:first-child) {
-    width: 200px;
-    text-align: left;
-    padding: 10px 15px;
-}
-
 td {
     border: 1px solid darkgray;
     border-radius: 3px;
+}
+
+tr:first-child td:first-child {
+    width: 240px;
+    font-size: 20px;
+    text-align: center;
+}
+
+td {
+    width: 240px;
+    text-align: left;
+    margin: 20px;
+    padding: 10px 15px;
 }
