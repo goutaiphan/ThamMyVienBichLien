@@ -15,10 +15,6 @@
         font-size: 85px;
     }
 
-    nav a {
-        font-size: 17px;
-    }
-
     #intro {
         width: 90%;
         font-size: 15px;
@@ -40,10 +36,6 @@
 
     #titleArea p:nth-child(2) {
         font-size: 120px;
-    }
-
-    nav a {
-        font-size: 17px;
     }
 
     #intro {
