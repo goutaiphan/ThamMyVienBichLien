@@ -1,53 +1,45 @@
 @media only screen and (max-width: 600px) {
-    tr:first-child td:first-child {
-        font-size: 20px;
-    }
-
-    tr:first-child td:first-child {
-        width: 50%;
-    }
-
     td {
-        width: 50%;
+        width: 40%;
+    }
+
+    tr:first-child td:first-child {
+        width: 40%;
+        font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    tr:first-child td:first-child {
-        font-size: 23px;
-    }
-
-    tr:first-child td:first-child {
-        width: 240px;
-    }
-
     td {
         width: 240px;
+    }
+
+    tr:first-child td:first-child {
+        width: 240px;
+        font-size: 23px;
     }
 }
 
 #serviceArea {
-    width: max-content;
+    width: 400px;
     margin: 50px auto 100px;
 }
 
 table {
-    width: 100%;
+    width: 95%;
+    margin: auto;
     border-spacing: 10px;
     padding-bottom: 15px;
 }
 
 td {
+    margin: 20px;
+    padding: 10px 15px;
+    text-align: left;
     border: 1px solid darkgray;
     border-radius: 3px;
 }
 
 tr:first-child td:first-child {
     text-align: center;
-}
-
-td {
-    text-align: left;
-    margin: 20px;
-    padding: 10px 15px;
 }
