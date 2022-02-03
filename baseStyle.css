@@ -25,14 +25,8 @@
     bottom: 0;
 }
 
-.container-fluid{
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 2cm;
-}
-
 body {
+    width: 700px;
     margin: auto;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
