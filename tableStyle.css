@@ -4,11 +4,11 @@
     }
 
     tr:first-child td:first-child {
-        width: 130px;
+        width: 50%;
     }
 
     td {
-        width: 130px;
+        width: 50%;
     }
 }
 
@@ -32,6 +32,7 @@
 }
 
 table {
+    width: 100%;
     border-spacing: 10px;
     padding-bottom: 15px;
 }
