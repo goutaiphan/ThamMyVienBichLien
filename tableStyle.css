@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+    #serviceArea {
+        width: 100%;
+    }
+
     td {
         width: 40%;
     }
@@ -10,18 +14,21 @@
 }
 
 @media only screen and (min-width: 600px) {
+    #serviceArea {
+        width: 700px;
+    }
+
     td {
-        width: 240px;
+        width: 60%;
     }
 
     tr:first-child td:first-child {
-        width: 240px;
+        width: 60%;
         font-size: 23px;
     }
 }
 
 #serviceArea {
-    width: 100%;
     margin: 50px auto 100px;
 }
 
