@@ -8,7 +8,7 @@
     }
 
     #titleArea {
-        margin: 60px auto auto;
+        margin: 60px auto 20px;
     }
 
     #titleArea p:nth-child(1) {
@@ -26,7 +26,7 @@
     }
 
     #titleArea {
-        margin: 100px auto auto;
+        margin: 100px auto 20px;
     }
 
     #titleArea p:nth-child(1) {

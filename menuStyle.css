@@ -24,7 +24,7 @@
 
 #menuArea {
     width: max-content;
-    margin: auto;
+    margin: auto auto 40px;
 }
 
 #menuArea a {

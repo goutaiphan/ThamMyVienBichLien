@@ -3,7 +3,7 @@
         width: 70%;
         left: 4px;
         font-size: 15px;
-        margin: 20px auto 60px;
+        margin: auto auto 60px;
     }
 
     blockquote:before, blockquote:after {
@@ -29,7 +29,7 @@
     #intro {
         width: 500px;
         font-size: 17px;
-        margin: 20px auto 70px;
+        margin: auto auto 70px;
     }
 
     blockquote:before, blockquote:after {
