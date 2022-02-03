@@ -11,6 +11,15 @@
         font-size: 80px;
     }
 
+    nav {
+        width: 400px;
+    }
+
+    nav a {
+        width: max-content;
+        padding: 10px 0;
+    }
+
     tr:first-child td:first-child {
         font-size: 17px;
     }
@@ -35,6 +44,15 @@
 
     #titleArea p:nth-child(2) {
         font-size: 120px;
+    }
+
+    nav {
+        width: 700px;
+    }
+
+    nav a {
+        width: max-content;
+        padding: 10px 0;
     }
 
     tr:first-child td:first-child {

@@ -38,13 +38,11 @@ td {
 }
 
 tr:first-child td:first-child {
-    width: 240px;
     font-size: 20px;
     text-align: center;
 }
 
 td {
-    width: 240px;
     text-align: left;
     margin: 20px;
     padding: 10px 15px;
