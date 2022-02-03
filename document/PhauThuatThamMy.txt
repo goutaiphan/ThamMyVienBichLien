@@ -1,11 +1,11 @@
-Trẻ hóa<br>khuôn mặt
-Phẫu thuật<br>vùng mắt
-Phẫu thuật<br>vùng mũi
-Phẫu thuật<br>vùng môi
-Phẫu thuật<br>vùng ngực
-Phẫu thuật<br>vùng thân
-Phẫu thuật<br>y tế
-Cơ sở<br>vật chất
+Trẻ hóa khuôn mặt
+Phẫu thuật vùng mắt
+Phẫu thuật vùng mũi
+Phẫu thuật vùng môi
+Phẫu thuật vùng ngực
+Phẫu thuật vùng thân
+Phẫu thuật y tế
+Cơ sở vật chất
 |
 Trẻ hóa khuôn mặt
 	Căng da trán
@@ -54,7 +54,7 @@ Phẫu thuật y tế
 	Cắt bao quy đầu
 	Cắt búi trĩ
 	Mổ u bướu các loại
-	Mổ sọi thận, sỏi niệu quản các loại
+	Mổ sỏi thận, sỏi niệu quản
 	Mổ thoát vị vùng bẹn
 Cơ sở vật chất
 	Phòng lưu trú

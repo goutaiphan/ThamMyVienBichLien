@@ -29,18 +29,24 @@
     line-height: 1.6;
 }
 
+#serviceArea {
+    width: max-content;
+    margin: 50px auto 100px;
+}
+
 table {
-    border: 2px solid darkgray;
+    border-spacing: 5px;
 }
 
-tr:first-child td {
-    width: 100px;
-    padding: 20px;
+tr td:first-child {
+    width: 150px;
+    padding: 15px;
 }
 
-tr:not(tr:first-child) td {
+td:not(tr:first-child td:first-child) {
     width: 200px;
-    height: 30px;
+    text-align: left;
+    padding: 10px 15px;
 }
 
 td {
