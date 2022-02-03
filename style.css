@@ -16,12 +16,7 @@
     }
 
     #titleArea p:nth-child(2) {
-        font-size: 85px;
-    }
-
-    #intro {
-        width: 85%;
-        font-size: 15px;
+        font-size: 90px;
     }
 }
 
@@ -39,12 +34,7 @@
     }
 
     #titleArea p:nth-child(2) {
-        font-size: 120px;
-    }
-
-    #intro {
-        width: 500px;
-        font-size: 17px;
+        font-size: 130px;
     }
 }
 
@@ -75,9 +65,4 @@ body {
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-#intro {
-    margin: 0 auto 50px;
-    line-height: 1.6;
 }

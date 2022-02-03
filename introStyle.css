@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    #intro {
+        width: 75%;
+        left: 10px;
+        font-size: 15px;
+        margin: 20px auto 60px;
+    }
+
+    blockquote:before, blockquote:after {
+        position: absolute;
+        color: #78a6ce;
+        font-size: 5rem;
+    }
+
+    blockquote:before {
+        content: '“';
+        left: -2.5rem;
+        top: -3rem;
+    }
+
+    blockquote:after {
+        content: '”';
+        right: -1rem;
+        top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #intro {
+        width: 500px;
+        font-size: 17px;
+        margin: 20px auto 70px;
+    }
+
+    blockquote:before, blockquote:after {
+        position: absolute;
+        color: #78a6ce;
+        font-size: 6rem;
+    }
+
+    blockquote:before {
+        content: '“';
+        left: -3.5rem;
+        top: -4rem;
+    }
+
+    blockquote:after {
+        content: '”';
+        right: -2.7rem;
+        top: 1.5rem;
+    }
+}
+
+#intro {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+blockquote {
+    font-size: 2rem;
+    max-width: max-content;
+    position: relative;
+}
