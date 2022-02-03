@@ -26,7 +26,7 @@
 }
 
 body {
-    width: 700px;
+    min-width: 300px;
     margin: auto;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
