@@ -51,11 +51,11 @@
     opacity: 0.8;
 }
 
-#menuArea a:hover {
+#menuArea a:hover, #menuArea a:active {
     color: #36648B;
 }
 
-#menuArea a:hover::after {
+#menuArea a:hover::after, #menuArea a:active::after {
     transform: scaleX(1);
     transform-origin: center;
 }
