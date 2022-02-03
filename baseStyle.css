@@ -30,6 +30,9 @@ body {
     margin: auto;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+    font-family: PlayfairDisplay, serif;
+    font-size: 17px;
+    transform: scale(1.05, 1);
 }
 
 @keyframes fadeIn {
