@@ -1,7 +1,7 @@
 @media only screen and (max-width: 500px) {
     #intro {
         width: 70%;
-        left: 7px;
+        left: 5px;
         font-size: 15px;
         margin: 20px auto 60px;
     }
@@ -14,13 +14,13 @@
 
     blockquote:before {
         content: '“';
-        left: -45px;
-        top: -50px;
+        left: -40px;
+        top: -45px;
     }
 
     blockquote:after {
         content: '”';
-        right: -30px;
+        right: -33px;
         top: 75px;
     }
 }
