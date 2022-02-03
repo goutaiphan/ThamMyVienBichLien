@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: 13px;
+    body, nav a, td {
+        font-size: 14px;
     }
 
     #titleArea p:nth-child(1) {
@@ -10,10 +10,14 @@
     #titleArea p:nth-child(2) {
         font-size: 80px;
     }
+
+    tr:first-child td:first-child {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    body {
+    body, nav a, td {
         font-size: 17px;
     }
 
@@ -23,5 +27,9 @@
 
     #titleArea p:nth-child(2) {
         font-size: 120px;
+    }
+
+    tr:first-child td:first-child {
+        font-size: 20px;
     }
 }
