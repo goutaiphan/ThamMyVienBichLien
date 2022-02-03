@@ -3,7 +3,6 @@
 }
 
 #titleArea p:nth-child(1) {
-    font-size: 25px;
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -13,7 +12,6 @@
     margin: auto;
     top: -20px;
     font-family: FairProsper, serif;
-    font-size: 120px;
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
