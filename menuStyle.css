@@ -10,14 +10,14 @@
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 400px) {
     #menuArea a {
         display: inline-block;
         width: max-content;
         margin: auto 2px;
         padding: 12px 20px;
         font-family: PlayfairDisplay, serif;
-        font-size: 18px;
+        font-size: 20px;
         text-transform: uppercase;
     }
 }
