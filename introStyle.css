@@ -21,7 +21,7 @@
     blockquote:after {
         content: '”';
         right: -25px;
-        top: 50px;
+        top: 70px;
     }
 }
 
