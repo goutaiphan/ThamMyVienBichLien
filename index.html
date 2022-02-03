@@ -42,6 +42,11 @@
 </html>
 
 <script>
+
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    document.write(w);
+
     let fileData = getFileData('document/PhauThuatThamMy.txt')
         .replaceAll('\t', '')
         .replaceAll('\r\n', '\n');
