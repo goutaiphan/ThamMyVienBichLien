@@ -33,8 +33,6 @@
 }
 
 body {
-    min-width: 600px;
-    max-width: 100%;
     margin: auto;
     text-align: center;
     -webkit-tap-highlight-color: transparent;

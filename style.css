@@ -1,5 +1,4 @@
 #titleArea {
-    width: 600px;
     margin: 100px auto auto;
 }
 
@@ -14,7 +13,7 @@
     margin: auto;
     top: -20px;
     font-family: FairProsper, serif;
-    font-size: 10vw;
+    font-size: 120px;
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
