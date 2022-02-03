@@ -34,9 +34,11 @@ table {
     padding-bottom: 15px;
 }
 
-tr td:first-child {
+tr:first-child td:first-child {
     width: 200px;
     padding: 15px;
+    font-family: PlayfairDisplay, serif;
+    font-size: 25px;
 }
 
 td:not(tr:first-child td:first-child) {
@@ -47,4 +49,5 @@ td:not(tr:first-child td:first-child) {
 
 td {
     border: 1px solid darkgray;
+    border-radius: 3px;
 }
