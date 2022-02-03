@@ -1,0 +1,48 @@
+Chăm sóc khuôn mặt
+Chăm sóc da
+Chăm sóc vùng thân
+Chăm sóc tóc
+Xăm phun
+Trang điểm
+|
+Chăm sóc khuôn mặt
+	Massage mặt
+	Mặt nạ trứng gà
+	Mặt nạ sữa tươi
+	Mặt nạ vàng
+	Mặt nạ săn cơ
+	Hút lông mặt
+	Tỉa lông mày
+Chăm sóc mụn sẹo
+	Điều trị mụn
+	Hút mụn
+	Lấy mụn
+	Đốt mụn thịt
+	Đốt mụn cóc
+	Đốt mụn ruồi
+	Cà sẹo rổ
+	Thoa thuốc mụn
+	Lăn ống tre
+Chăm sóc vùng thân
+	Massage toàn thân
+	Cạo gió, giác hơi
+	Xông hơi
+	Tắm trắng toàn thân
+	Tiêm trắng
+	Làm móng
+Chăm sóc tóc
+	Cắt tóc
+	Cắt mái
+	Uốn tóc
+	Chải bới
+	Gội đầu
+Xăm phun
+	Xăm chân mày
+	Phun chân mày
+	Điêu khắc 6D chân mày
+	Xăm 2 mí mắt
+	Xăm môi
+	Phun thêu, tán bột môi
+Trang điểm
+	Trang điểm dự tiệc
+	Trang điểm dạ hội

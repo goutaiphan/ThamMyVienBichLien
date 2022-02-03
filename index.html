@@ -30,8 +30,61 @@
     <a href="#">Liên hệ</a>
     <div id="indicator"></div>
 </nav>
+
+<div id="serviceArea"></div>
 </html>
 
 <script>
+    let fileData = getFileData('document/PhauThuatThamMy.txt')
+        .replaceAll('\t', '')
+        .replaceAll('\r\n', '\n');
+    let fileTitle = fileData.split('|')[0];
+    let fileContent = fileData.split('|')[1];
 
+    let titleArray = fileTitle.split('\n').filter(item => item);
+    let labelArray = fileTitle.replaceAll('<br>', ' ')
+        .split('\n').filter(item => item);
+
+    let serviceArray = [];
+    for (let i = 0; i < labelArray.length; i++) {
+        let startIndex = fileContent.indexOf(labelArray[i]) + labelArray[i].length;
+        let endIndex = i === labelArray.length - 1
+            ? fileContent.length
+            : fileContent.indexOf(labelArray[i + 1]);
+        let array = fileContent.substring(startIndex, endIndex).split('\n').filter(item => item);
+        serviceArray.push(array);
+    }
+    console.log(serviceArray);
+
+    let serviceArea = document.getElementById('serviceArea');
+
+    for (let i = 0; i < labelArray.length; i++) {
+        let table = document.createElement('table');
+
+        for (let j = 0; j < serviceArray[i].length; j++) {
+            let tableRow = document.createElement('tr');
+            let tableCell0 = document.createElement('td');
+            let tableCell1 = document.createElement('td');
+
+            if (j === 0) {
+                tableCell0.rowSpan = serviceArray[i].length;
+                tableCell0.innerHTML = titleArray[i];
+                tableCell1.innerHTML = serviceArray[i][j];
+                tableRow.appendChild(tableCell0);
+                tableRow.appendChild(tableCell1);
+            } else {
+                tableCell1.innerHTML = serviceArray[i][j];
+                tableRow.appendChild(tableCell1);
+            }
+            table.appendChild(tableRow);
+        }
+        serviceArea.appendChild(table);
+    }
+
+    function getFileData(url) {
+        let request = new XMLHttpRequest();
+        request.open('get', url, false);
+        request.send(null);
+        return request.responseText;
+    }
 </script>

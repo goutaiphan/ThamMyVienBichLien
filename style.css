@@ -28,3 +28,21 @@
     transform: scale(1.05, 1);
     line-height: 1.6;
 }
+
+table {
+    border: 2px solid darkgray;
+}
+
+tr:first-child td {
+    width: 100px;
+    padding: 20px;
+}
+
+tr:not(tr:first-child) td {
+    width: 200px;
+    height: 30px;
+}
+
+td {
+    border: 1px solid darkgray;
+}
