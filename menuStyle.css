@@ -4,9 +4,9 @@
         width: max-content;
         margin: 8px auto;
         padding: 10px 15px;
-        font-family: Lora, serif;
-        font-style: italic;
-        font-size: 16px;
+        font-family: PlayfairDisplay, serif;
+        font-size: 17px;
+        text-transform: uppercase;
     }
 }
 
@@ -16,9 +16,9 @@
         width: max-content;
         margin: auto 2px;
         padding: 8px 20px;
-        font-family: Lora, serif;
-        font-style: italic;
-        font-size: 17px;
+        font-family: PlayfairDisplay, serif;
+        font-size: 18px;
+        text-transform: uppercase;
     }
 }
 
