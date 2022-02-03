@@ -1,4 +1,8 @@
 @media only screen and (max-width: 500px) {
+    #menuArea {
+        margin: auto auto 50px;
+    }
+
     #menuArea a {
         display: block;
         width: max-content;
@@ -11,6 +15,10 @@
 }
 
 @media only screen and (min-width: 500px) {
+   #menuArea {
+       margin: auto auto 70px;
+   }
+
     #menuArea a {
         display: inline-block;
         width: max-content;
@@ -24,7 +32,6 @@
 
 #menuArea {
     width: max-content;
-    margin: auto auto 40px;
 }
 
 #menuArea a {
