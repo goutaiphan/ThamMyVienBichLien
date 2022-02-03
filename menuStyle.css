@@ -1,10 +1,12 @@
 @media only screen and (max-width: 600px) {
-     #menuArea a {
+    #menuArea a {
         display: block;
         width: max-content;
         margin: 8px auto;
         padding: 10px 15px;
-        font-size: 15px;
+        font-family: Lora, serif;
+        font-style: italic;
+        font-size: 16px;
     }
 }
 
@@ -14,6 +16,8 @@
         width: max-content;
         margin: auto 2px;
         padding: 8px 20px;
+        font-family: Lora, serif;
+        font-style: italic;
         font-size: 17px;
     }
 }
