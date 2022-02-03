@@ -33,9 +33,9 @@
     bottom: 0;
 }
 
-html, body {
+html {
     overflow-x: hidden;
-    overscroll-behavior: none;
+    overscroll-behavior-x: none;
 }
 
 body {
