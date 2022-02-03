@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     #menuArea a {
         display: block;
         width: max-content;
@@ -10,7 +10,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     #menuArea a {
         display: inline-block;
         width: max-content;
