@@ -35,19 +35,19 @@
     blockquote:before, blockquote:after {
         position: absolute;
         color: #78a6ce;
-        font-size: 6rem;
+        font-size: 80px;
     }
 
     blockquote:before {
         content: '“';
-        left: -3.5rem;
-        top: -4rem;
+        left: -50px;
+        top: -50px;
     }
 
     blockquote:after {
         content: '”';
-        right: -2.7rem;
-        top: 1.5rem;
+        right: -45px;
+        top: 30px;
     }
 }
 
@@ -57,7 +57,6 @@
 }
 
 blockquote {
-    font-size: 2rem;
     max-width: max-content;
     position: relative;
 }
