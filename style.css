@@ -39,6 +39,7 @@ body {
     -webkit-tap-highlight-color: transparent;
     font-family: PlayfairDisplay, serif;
     transform: scale(1.05, 1);
+    overflow-x: hidden;
 }
 
 #titleArea {
