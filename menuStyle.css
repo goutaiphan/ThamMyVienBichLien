@@ -5,9 +5,9 @@
 
     #menuArea a {
         width: 40%;
-        margin: 5px auto;
-        padding: 10px 0;
         display: block;
+        margin: 8px auto;
+        padding: 10px 0;
         font-size: 15px;
     }
 }
@@ -20,6 +20,7 @@
     #menuArea a {
         width: max-content;
         display: inline-block;
+        margin: auto 2px;
         padding: 10px 20px;
         font-size: 17px;
     }
