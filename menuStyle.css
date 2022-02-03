@@ -32,6 +32,7 @@
     color: black;
     text-decoration: none;
     transition: linear 0.5s ease-in-out;
+    letter-spacing: 0.25px;
 }
 
 #menuArea a::after {
