@@ -3,6 +3,10 @@
         font-size: 14px;
     }
 
+    #titleArea {
+        margin: 80px auto auto;
+    }
+
     #titleArea p:nth-child(1) {
         font-size: 18px;
     }
@@ -15,6 +19,10 @@
 @media only screen and (min-width: 600px) {
     body, nav a, td {
         font-size: 17px;
+    }
+
+    #titleArea {
+        margin: 100px auto auto;
     }
 
     #titleArea p:nth-child(1) {
@@ -46,10 +54,6 @@ body {
     -webkit-tap-highlight-color: transparent;
     font-family: PlayfairDisplay, serif;
     transform: scale(1.05, 1);
-}
-
-#titleArea {
-    margin: 100px auto auto;
 }
 
 #titleArea p:nth-child(1) {
