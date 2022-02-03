@@ -33,7 +33,7 @@
     bottom: 0;
 }
 
-html {
+html, body {
     overflow-x: hidden;
     overscroll-behavior: none;
 }
