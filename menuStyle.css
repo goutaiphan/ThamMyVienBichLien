@@ -1,12 +1,34 @@
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        width: 50%;
+        margin: auto;
+        padding: 10px 0;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        width: max-content;
+    }
+
+    nav a {
+        width: max-content;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+}
+
 nav {
-    display: table;
     margin: auto;
-    border-spacing: 0;
 }
 
 nav a {
     position: relative;
-    display: table-cell;
     color: black;
     text-decoration: none;
     transition: linear 0.5s ease-in-out;
@@ -33,6 +55,6 @@ nav a:hover {
 }
 
 nav a:hover::after {
-    transform: scaleX(0.8);
+    transform: scaleX(1);
     transform-origin: center;
 }
