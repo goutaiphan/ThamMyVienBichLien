@@ -26,6 +26,21 @@
     }
 }
 
+* {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    font-family: PlayfairDisplay, serif;
+    transform: scale(1.05, 1);
+}
+
 #titleArea {
     margin: 100px auto auto;
 }
