@@ -8,7 +8,6 @@
         width: max-content;
         margin: 8px auto;
         padding: 12px 20px;
-        font-family: PlayfairDisplay, serif;
         font-size: 19px;
         text-transform: uppercase;
     }
@@ -24,7 +23,6 @@
         width: max-content;
         margin: auto 2px;
         padding: 12px 20px;
-        font-family: PlayfairDisplay, serif;
         font-size: 20px;
         text-transform: uppercase;
     }
@@ -38,10 +36,10 @@
     position: relative;
     font-family: PlayfairDisplay, serif;
     transform: scale(1.05, 1);
+    letter-spacing: 0.5px;
     color: black;
     text-decoration: none;
     transition: linear 0.5s ease-in-out;
-    letter-spacing: 0.25px;
 }
 
 #menuArea a::after {
