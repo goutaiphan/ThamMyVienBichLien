@@ -49,5 +49,7 @@ td {
 
 tr:first-child td:first-child {
     font-family: PlayfairDisplay, serif;
+    transform: scale(1.05, 1);
     text-align: center;
+    border: none;
 }
