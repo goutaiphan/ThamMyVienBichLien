@@ -1,7 +1,6 @@
 @media only screen and (max-width: 500px) {
     #intro {
-        width: 80%;
-        left: 4px;
+        width: 85%;
         font-size: 15px;
         margin: auto auto 60px;
     }
