@@ -1,14 +1,14 @@
 @media only screen and (max-width: 500px) {
     #intro {
         width: 83%;
-        font-size: 16px;
+        font-size: 15px;
         margin: auto auto 60px;
     }
 
     #intro::first-letter {
         margin: -4px 12px 0 0;
-        font-size: 87px;
-        line-height: 80px;
+        font-size: 85px;
+        line-height: 75px;
     }
 }
 

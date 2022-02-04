@@ -5,6 +5,7 @@
 
     td {
         width: 40%;
+        font-size: 15px;
     }
 
     tr:first-child td:first-child {
@@ -20,6 +21,7 @@
 
     td {
         width: 60%;
+        font-size: 17px;
     }
 
     tr:first-child td:first-child {
