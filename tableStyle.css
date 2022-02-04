@@ -38,6 +38,7 @@ table {
     width: 95%;
     margin: auto;
     padding-bottom: 15px;
+    border-spacing: 10px;
 }
 
 td {
