@@ -43,13 +43,14 @@
 }
 
 body {
+    font-family: Lora, serif;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
-    font-family: PlayfairDisplay, serif;
-    transform: scale(1.05, 1);
 }
 
 #titleArea p:nth-child(1) {
+    font-family: PlayfairDisplay, serif;
+    transform: scale(1.05, 1);
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
