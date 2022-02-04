@@ -17,3 +17,8 @@
     font-family: 'RobotoSlab';
     src: url('asset/RobotoSlab.ttf')
 }
+
+@font-face {
+    font-family: 'Lora';
+    src: url('asset/Lora.ttf')
+}

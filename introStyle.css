@@ -33,4 +33,6 @@
 #intro {
     line-height: 1.6;
     text-align: justify;
+    font-family: Lora, serif;
+    transform: scale(0.95, 1);
 }
