@@ -7,10 +7,8 @@
 
     #intro::first-letter {
         margin: -4px 12px 0 0;
-        float: left;
         font-size: 87px;
         line-height: 80px;
-        color: #36648B;
     }
 }
 
@@ -22,11 +20,9 @@
     }
 
     #intro::first-letter {
-        margin: -10px 10px 0 0;
-        float: left;
-        font-size: 93px;
-        line-height: 95%;
-        color: #36648B;
+        margin: -7px 12px 0 0;
+        font-size: 94px;
+        line-height: 90px;
     }
 }
 
@@ -34,4 +30,9 @@
     line-height: 1.6;
     text-align: justify;
     font-family: Lora, serif;
+}
+
+#intro::first-letter {
+    float: left;
+    color: #36648B;
 }
