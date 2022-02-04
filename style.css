@@ -1,8 +1,4 @@
 @media only screen and (max-width: 500px) {
-    html {
-        overflow-x: hidden;
-    }
-
     body, td {
         font-size: 14px;
     }
