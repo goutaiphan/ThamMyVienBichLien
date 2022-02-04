@@ -6,22 +6,12 @@
         margin: auto auto 60px;
     }
 
-    blockquote:before, blockquote:after {
-        position: absolute;
-        color: #78a6ce;
-        font-size: 70px;
-    }
-
-    blockquote:before {
-        content: '“';
-        left: -40px;
-        top: -45px;
-    }
-
-    blockquote:after {
-        content: '”';
-        right: -35px;
-        top: 75px;
+    #intro::first-letter {
+        margin: -11px 8px 0 0;
+        float: left;
+        font-size: 83px;
+        line-height: 100%;
+        color: #36648B;
     }
 }
 
@@ -32,31 +22,16 @@
         margin: auto auto 70px;
     }
 
-    blockquote:before, blockquote:after {
-        position: absolute;
-        color: #78a6ce;
-        font-size: 80px;
-    }
-
-    blockquote:before {
-        content: '“';
-        left: -50px;
-        top: -50px;
-    }
-
-    blockquote:after {
-        content: '”';
-        right: -45px;
-        top: 30px;
+    #intro::first-letter {
+        margin: -11px 10px 0 0;
+        float: left;
+        font-size: 93px;
+        line-height: 100%;
+        color: #36648B;
     }
 }
 
 #intro {
     line-height: 1.6;
     text-align: justify;
-}
-
-blockquote {
-    max-width: max-content;
-    position: relative;
 }
