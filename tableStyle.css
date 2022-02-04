@@ -38,7 +38,6 @@ table {
     width: 95%;
     margin: auto;
     padding-bottom: 15px;
-    border-spacing: 10px;
 }
 
 td {
@@ -47,6 +46,7 @@ td {
     text-align: left;
     border: 1px solid gray;
     border-radius: 3px;
+    background: red;
 }
 
 tr:first-child td:first-child {
