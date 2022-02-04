@@ -20,9 +20,9 @@
     }
 
     #intro::first-letter {
-        margin: -8px 12px 0 0;
-        font-size: 94px;
-        line-height: 92px;
+        margin: -4px 12px 0 0;
+        font-size: 95px;
+        line-height: 85px;
     }
 }
 
