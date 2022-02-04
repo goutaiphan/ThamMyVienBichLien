@@ -14,15 +14,15 @@
 
 @media only screen and (min-width: 500px) {
     #intro {
-        width: 500px;
+        width: 550px;
         font-size: 17px;
         margin: auto auto 70px;
     }
 
     #intro::first-letter {
-        margin: -4px 12px 0 0;
-        font-size: 95px;
-        line-height: 85px;
+        margin: -8px 12px 0 0;
+        font-size: 100px;
+        line-height: 90px;
     }
 }
 
