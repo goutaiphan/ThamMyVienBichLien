@@ -32,6 +32,7 @@
 
 #serviceArea {
     margin: auto;
+    visibility: hidden;
 }
 
 table {
@@ -46,7 +47,6 @@ td {
     text-align: left;
     border: 1px solid gray;
     border-radius: 3px;
-    background: red;
 }
 
 tr:first-child td:first-child {
