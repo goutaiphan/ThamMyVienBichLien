@@ -6,10 +6,10 @@
     }
 
     #intro::first-letter {
-        margin: -6px 8px 0 0;
+        margin: -4px 12px 0 0;
         float: left;
         font-size: 87px;
-        line-height: 95%;
+        line-height: 80px;
         color: #36648B;
     }
 }
