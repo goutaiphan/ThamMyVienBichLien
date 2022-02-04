@@ -7,10 +7,10 @@
     }
 
     #intro::first-letter {
-        margin: -11px 8px 0 0;
+        margin: -8px 8px 0 0;
         float: left;
-        font-size: 83px;
-        line-height: 100%;
+        font-size: 84px;
+        line-height: 95%;
         color: #36648B;
     }
 }
@@ -23,10 +23,10 @@
     }
 
     #intro::first-letter {
-        margin: -11px 10px 0 0;
+        margin: -10px 10px 0 0;
         float: left;
         font-size: 93px;
-        line-height: 100%;
+        line-height: 95%;
         color: #36648B;
     }
 }
