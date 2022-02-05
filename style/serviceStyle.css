@@ -46,6 +46,7 @@ td {
     margin: 20px;
     padding: 10px 15px;
     text-align: left;
-    border: 1px solid gray;
+    color: #36648B;
+    border: 1px solid #36648B;
     border-radius: 3px;
 }
