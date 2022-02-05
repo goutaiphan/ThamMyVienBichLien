@@ -29,7 +29,7 @@
 }
 
 #service {
-    height: 74px;
+    height: max-content;
     margin: auto auto 15px;
     text-align: center;
     border: 1px solid lightgray;
@@ -37,12 +37,11 @@
 }
 
 #serviceVI {
+    margin: 12px auto -8px;
     font-size: 15px;
     color: #376891;
 }
 
 #serviceEN {
-    position: relative;
-    top: -8px;
     font-size: 13px;
 }
