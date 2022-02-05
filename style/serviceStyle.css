@@ -31,6 +31,7 @@
 #service {
     height: max-content;
     margin: auto auto 15px;
+    padding: 3px 0;
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 3px;
