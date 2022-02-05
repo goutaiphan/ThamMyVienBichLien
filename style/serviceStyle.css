@@ -8,7 +8,7 @@
         border-radius: 5px;
     }
 
-    td {
+    #serviceTable td {
         width: 40%;
         font-size: 15px;
     }
@@ -24,7 +24,7 @@
         border-radius: 5px;
     }
 
-    td {
+    #serviceTable td {
         width: 60%;
         font-size: 17px;
     }
@@ -35,14 +35,14 @@
     margin: auto;
 }
 
-table {
+#serviceTable {
     width: 100%;
     margin: auto;
     padding-bottom: 15px;
     border-spacing: 0 10px;
 }
 
-td {
+#serviceTable td {
     margin: 20px;
     padding: 10px 15px;
     text-align: left;

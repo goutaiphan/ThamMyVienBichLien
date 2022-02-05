@@ -1,2 +1,2 @@
-# Auto detect fileData files and perform LF normalization
-* fileData=auto
+# Auto detect serviceData files and perform LF normalization
+* serviceData=auto

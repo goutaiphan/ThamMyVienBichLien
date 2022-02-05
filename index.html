@@ -46,51 +46,63 @@
 
 <script>
     document.write(String(window.innerWidth));
-    let fileData = getFileData('document/PhauThuatThamMy.txt')
-        .replaceAll('\t', '')
-        .replaceAll('\r\n', '\n');
-    let fileTitle = fileData.split('|')[0];
-    let fileContent = fileData.split('|')[1];
+    let serviceData = getFileData('document/PhauThuatThamMy.txt');
+    let serviceParent = getFileArray(serviceData, 0);
+    let serviceChild = getFileArray(serviceData, 1);
 
-    let titleArray = fileTitle.split('\n').filter(item => item);
-    let labelArray = fileTitle.replaceAll('<br>', ' ')
-        .split('\n').filter(item => item);
-
-    let serviceArray = [];
-    for (let i = 0; i < labelArray.length; i++) {
-        let startIndex = fileContent.indexOf(labelArray[i]) + labelArray[i].length;
-        let endIndex = i === labelArray.length - 1
-            ? fileContent.length
-            : fileContent.indexOf(labelArray[i + 1]);
-        let array = fileContent.substring(startIndex, endIndex).split('\n').filter(item => item);
-        serviceArray.push(array);
-    }
+    let serviceDataEN = getFileData('document/PhauThuatThamMyEN.txt');
+    let serviceChildEN = getFileArray(serviceDataEN, 1);
 
     let serviceArea = document.getElementById('serviceArea');
 
-    for (let i = 0; i < labelArray.length; i++) {
+    for (let i = 0; i < serviceParent.length; i++) {
         let serviceHeader = document.createElement('img');
         serviceHeader.id = 'serviceHeader';
         serviceHeader.src = 'asset/Service-TreHoaKhuonMat.png';
         serviceArea.appendChild(serviceHeader);
 
-        let table = document.createElement('table');
-        serviceArea.appendChild(table);
+        let serviceTable = document.createElement('table');
+        serviceTable.id = 'serviceTable';
+        serviceArea.appendChild(serviceTable);
 
-        for (let j = 0; j < serviceArray[i].length; j++) {
+        for (let j = 0; j < serviceChild[i].length; j++) {
             let tableRow = document.createElement('tr');
             let tableCell = document.createElement('td');
+            tableCell.innerHTML = serviceChild[i][j] + `<br>${serviceChildEN[i][j]}`;
 
-            tableCell.innerHTML = serviceArray[i][j];
             tableRow.appendChild(tableCell);
-            table.appendChild(tableRow);
+            serviceTable.appendChild(tableRow);
         }
+    }
+
+    function getFileArray(fileData, fileType) {
+        let fileTitle = fileData.split('|')[0];
+        let fileContent = fileData.split('|')[1];
+
+        let fileParent = fileTitle.replaceAll('<br>', ' ')
+            .split('\n').filter(item => item);
+
+        let fileChild = [];
+        for (let i = 0; i < fileParent.length; i++) {
+            let startIndex = fileContent.indexOf(fileParent[i]) + fileParent[i].length;
+            let endIndex = i === fileParent.length - 1
+                ? fileContent.length
+                : fileContent.indexOf(fileParent[i + 1]);
+            let array = fileContent.substring(startIndex, endIndex).split('\n').filter(item => item);
+            fileChild.push(array);
+        }
+
+        return fileType === 0
+            ? fileParent
+            : fileChild;
     }
 
     function getFileData(url) {
         let request = new XMLHttpRequest();
         request.open('get', url, false);
         request.send(null);
-        return request.responseText;
+        return request.responseText
+            .replaceAll('\t', '')
+            .replaceAll('\r\n', '\n');
     }
 </script>
