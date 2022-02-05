@@ -56,22 +56,28 @@
     let serviceArea = document.getElementById('serviceArea');
 
     for (let i = 0; i < serviceParent.length; i++) {
-        let serviceHeader = document.createElement('img');
-        serviceHeader.id = 'serviceHeader';
-        serviceHeader.src = 'asset/Service-TreHoaKhuonMat.png';
-        serviceArea.appendChild(serviceHeader);
+        let serviceHead = document.createElement('img');
+        serviceArea.appendChild(serviceHead);
+        serviceHead.id = 'serviceHead';
+        serviceHead.src = 'asset/Service-TreHoaKhuonMat.png';
 
-        let serviceTable = document.createElement('table');
-        serviceTable.id = 'serviceTable';
-        serviceArea.appendChild(serviceTable);
+        let serviceBody = document.createElement('div');
+        serviceBody.id = 'serviceBody';
+        serviceArea.appendChild(serviceBody);
 
         for (let j = 0; j < serviceChild[i].length; j++) {
-            let tableRow = document.createElement('tr');
-            let tableCell = document.createElement('td');
-            tableCell.innerHTML = serviceChild[i][j] + `<br>${serviceChildEN[i][j]}`;
+            let service = document.createElement('div');
+            let serviceVI = document.createElement('p');
+            let serviceEN = document.createElement('p');
+            service.appendChild(serviceVI);
+            service.appendChild(serviceEN);
+            serviceBody.appendChild(service);
 
-            tableRow.appendChild(tableCell);
-            serviceTable.appendChild(tableRow);
+            service.id = 'service';
+            serviceVI.id = 'serviceVI';
+            serviceEN.id = 'serviceEN';
+            serviceVI.innerHTML = serviceChild[i][j];
+            serviceEN.innerHTML = serviceChildEN[i][j];
         }
     }
 

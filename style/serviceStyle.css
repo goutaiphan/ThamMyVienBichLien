@@ -1,51 +1,46 @@
 @media only screen and (max-width: 500px) {
     #serviceArea {
-        width: 100%;
+        width: 95%;
+        margin: auto;
     }
 
-    #serviceHeader {
+    #serviceHead {
         width: 100%;
         border-radius: 5px;
-    }
-
-    #serviceTable td {
-        width: 40%;
-        font-size: 15px;
+        margin: auto auto 15px;
     }
 }
 
 @media only screen and (min-width: 500px) {
     #serviceArea {
         width: 700px;
+        margin: auto;
     }
 
-    #serviceHeader {
+    #serviceHead {
         width: 700px;
+        margin: auto auto 10px;
         border-radius: 5px;
     }
-
-    #serviceTable td {
-        width: 60%;
-        font-size: 17px;
-    }
 }
 
-#serviceArea {
-    width: 95%;
-    margin: auto;
+#serviceBody {
+    margin: auto auto 50px;
 }
 
-#serviceTable {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 15px;
-    border-spacing: 0 10px;
-}
-
-#serviceTable td {
-    margin: 20px;
-    padding: 10px 15px;
-    text-align: left;
+#service {
+    margin: auto auto 15px;
+    padding: 15px 15px 2px;
+    text-align: center;
     border: 1px solid darkgray;
     border-radius: 3px;
+}
+
+#serviceVI {
+    font-size: 17px;
+    margin: auto auto -10px;
+}
+
+#serviceEN {
+    font-style: italic;
 }

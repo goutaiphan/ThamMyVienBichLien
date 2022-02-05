@@ -5,7 +5,7 @@ Phẫu thuật vùng môi
 Phẫu thuật vùng ngực
 Phẫu thuật vùng thân
 Phẫu thuật y tế
-Cơ sở vật chất
+Tiện ích
 |
 Trẻ hóa khuôn mặt
 	Căng da trán
@@ -53,9 +53,11 @@ Phẫu thuật vùng thân
 Phẫu thuật y tế
 	Cắt bao quy đầu
 	Cắt búi trĩ
-	Mổ u bướu các loại
+	Mổ u bướu
 	Mổ sỏi thận, sỏi niệu quản
 	Mổ thoát vị vùng bẹn
-Cơ sở vật chất
+Tiện ích
 	Phòng lưu trú
 	Người chăm sóc
+	Xe đưa đón
+	Thức uống

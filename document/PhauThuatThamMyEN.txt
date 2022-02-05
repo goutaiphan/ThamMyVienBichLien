@@ -5,7 +5,7 @@ Lip surgery
 Breast surgery
 Body surgery
 Medical surgery
-Infrastructure
+Utility
 |
 Facial rejuvenation
 	Forehead skin lifting
@@ -46,7 +46,7 @@ Body surgery
 	Hymen regeneration
 	Self fat grafting
 	Artifical fat grafting
-	Tiêm tan mỡ
+	Fat-soluble drugs injection
 	Liposuction
 	Weight losing
 	Abdominal muscles regeneration
@@ -57,6 +57,8 @@ Medical surgery
 	Tumor surgery
 	Nephrolithiasis surgery
 	Inguinal hernia surgery
-Infrastructure
+Utility
 	Accommodation
 	Caregiver
+	Car
+	Drink
