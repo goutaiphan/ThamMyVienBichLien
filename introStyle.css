@@ -1,8 +1,9 @@
 @media only screen and (max-width: 500px) {
     #intro {
         width: 83%;
-        font-size: 15px;
         margin: auto auto 50px;
+        left: -2px;
+        font-size: 15px;
     }
 
     #intro::first-letter {
@@ -15,8 +16,8 @@
 @media only screen and (min-width: 500px) {
     #intro {
         width: 550px;
-        font-size: 17px;
         margin: auto auto 70px;
+        font-size: 17px;
     }
 
     #intro::first-letter {
