@@ -3,14 +3,14 @@
         width: 100%;
     }
 
+    #serviceHeader {
+        width: 100%;
+        border-radius: 5px;
+    }
+
     td {
         width: 40%;
         font-size: 15px;
-    }
-
-    tr:first-child td:first-child {
-        width: 40%;
-        font-size: 20px;
     }
 }
 
@@ -19,31 +19,27 @@
         width: 700px;
     }
 
+    #serviceHeader {
+        width: 700px;
+        border-radius: 5px;
+    }
+
     td {
         width: 60%;
         font-size: 17px;
     }
-
-    tr:first-child td:first-child {
-        width: 60%;
-        font-size: 23px;
-    }
 }
 
 #serviceArea {
+    width: 95%;
     margin: auto;
-}
-
-#serviceHeader {
-    width: 700px;
-    border-radius: 3px;
 }
 
 table {
-    width: 95%;
+    width: 100%;
     margin: auto;
     padding-bottom: 15px;
-    border-spacing: 10px;
+    border-spacing: 0 10px;
 }
 
 td {
@@ -52,11 +48,4 @@ td {
     text-align: left;
     border: 1px solid gray;
     border-radius: 3px;
-}
-
-tr:first-child td:first-child {
-    font-family: PlayfairDisplay, serif;
-    transform: scale(1.05, 1);
-    text-align: center;
-    border: none;
 }

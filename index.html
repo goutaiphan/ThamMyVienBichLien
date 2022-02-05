@@ -68,33 +68,23 @@
 
     let serviceArea = document.getElementById('serviceArea');
 
-    let serviceHeader = document.createElement('img');
-    serviceHeader.id = 'serviceHeader';
-    serviceHeader.src = 'asset/Service-TreHoaKhuonMat.png';
-    serviceArea.appendChild(serviceHeader);
-
-
     for (let i = 0; i < labelArray.length; i++) {
+        let serviceHeader = document.createElement('img');
+        serviceHeader.id = 'serviceHeader';
+        serviceHeader.src = 'asset/Service-TreHoaKhuonMat.png';
+        serviceArea.appendChild(serviceHeader);
+
         let table = document.createElement('table');
+        serviceArea.appendChild(table);
 
         for (let j = 0; j < serviceArray[i].length; j++) {
             let tableRow = document.createElement('tr');
-            let tableCell0 = document.createElement('td');
-            let tableCell1 = document.createElement('td');
+            let tableCell = document.createElement('td');
 
-            if (j === 0) {
-                tableCell0.rowSpan = serviceArray[i].length;
-                tableCell0.innerHTML = titleArray[i];
-                tableCell1.innerHTML = serviceArray[i][j];
-                tableRow.appendChild(tableCell0);
-                tableRow.appendChild(tableCell1);
-            } else {
-                tableCell1.innerHTML = serviceArray[i][j];
-                tableRow.appendChild(tableCell1);
-            }
+            tableCell.innerHTML = serviceArray[i][j];
+            tableRow.appendChild(tableCell);
             table.appendChild(tableRow);
         }
-        serviceArea.appendChild(table);
     }
 
     function getFileData(url) {
