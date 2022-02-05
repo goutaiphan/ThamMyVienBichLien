@@ -6,7 +6,7 @@
 
     #serviceHead {
         width: 100%;
-        margin: auto auto 15px;
+        margin: auto auto 25px;
         border-radius: 5px;
     }
 }
@@ -19,13 +19,13 @@
 
     #serviceHead {
         width: 100%;
-        margin: auto auto 15px;
+        margin: auto auto 25px;
         border-radius: 5px;
     }
 }
 
 #serviceBody {
-    margin: auto auto 35px;
+    margin: auto auto 25px;
 }
 
 #service {
