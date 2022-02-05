@@ -46,7 +46,7 @@
 
 <script>
     //document.write(String(window.innerWidth));
-    let serviceData = getFileData('document/PhauThuatThamMy.txt');
+    let serviceData = getFileData('document/PhauThuatThamMyVI.txt');
     let serviceParent = getFileArray(serviceData, 0);
     let serviceChild = getFileArray(serviceData, 1);
 
@@ -55,11 +55,14 @@
 
     let serviceArea = document.getElementById('serviceArea');
 
+    console.log(deAccent(serviceParent[0]));
+
+
     for (let i = 0; i < serviceParent.length; i++) {
         let serviceHead = document.createElement('img');
         serviceArea.appendChild(serviceHead);
         serviceHead.id = 'serviceHead';
-        serviceHead.src = 'asset/Service-TreHoaKhuonMat.png';
+        serviceHead.src = `asset/Service_${deAccent(serviceParent[i])}.png`;
 
         let serviceBody = document.createElement('div');
         serviceBody.id = 'serviceBody';
@@ -101,6 +104,13 @@
         return fileType === 0
             ? fileParent
             : fileChild;
+    }
+
+    function deAccent(string) {
+        let normalization = string.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+        return normalization.replace(/ \D/g, function (match) {
+            return match.toUpperCase().replaceAll(' ', '');
+        });
     }
 
     function getFileData(url) {
