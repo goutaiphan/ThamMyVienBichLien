@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Thẩm mỹ viện Bích Liên</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="fontStyle.css" rel="stylesheet">
-    <link href="animationStyle.css" rel="stylesheet">
-    <link href="introStyle.css" rel="stylesheet">
-    <link href="menuStyle.css" rel="stylesheet">
-    <link href="tableStyle.css" rel="stylesheet">
+    <link href="style/baseStyle.css" rel="stylesheet">
+    <link href="style/fontStyle.css" rel="stylesheet">
+    <link href="style/animationStyle.css" rel="stylesheet">
+    <link href="style/introStyle.css" rel="stylesheet">
+    <link href="style/menuStyle.css" rel="stylesheet">
+    <link href="style/tableStyle.css" rel="stylesheet">
 
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="thammyvienbichlien.com"/>
@@ -67,6 +67,12 @@
     }
 
     let serviceArea = document.getElementById('serviceArea');
+
+    let serviceHeader = document.createElement('img');
+    serviceHeader.id = 'serviceHeader';
+    serviceHeader.src = 'asset/Service-TreHoaKhuonMat.png';
+    serviceArea.appendChild(serviceHeader);
+
 
     for (let i = 0; i < labelArray.length; i++) {
         let table = document.createElement('table');

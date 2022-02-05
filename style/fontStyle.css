@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../asset/PlayfairDisplay.ttf');
+}
+
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('../asset/TimesNewRoman.ttf');
+}
+
+@font-face {
+    font-family: 'FairProsper';
+    src: url('../asset/FairProsper.ttf')
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../asset/RobotoSlab.ttf')
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../asset/Lora.ttf')
+}
