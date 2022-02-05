@@ -30,6 +30,7 @@
 }
 
 #service {
+    width: 100%;
     margin: auto auto 15px;
     padding: 15px 0 2px;
     text-align: center;
