@@ -18,7 +18,7 @@
     }
 
     #serviceHead {
-        width: 700px;
+        width: 100%;
         margin: auto auto 10px;
         border-radius: 5px;
     }
@@ -29,18 +29,20 @@
 }
 
 #service {
+    height: 72px;
     margin: auto auto 15px;
-    padding: 15px 15px 2px;
     text-align: center;
     border: 1px solid darkgray;
     border-radius: 3px;
 }
 
 #serviceVI {
-    font-size: 17px;
-    margin: auto auto -10px;
+    font-size: 15px;
 }
 
 #serviceEN {
+    position: relative;
+    top: -10px;
+    font-size: 13px;
     font-style: italic;
 }
