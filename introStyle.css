@@ -2,6 +2,7 @@
     #intro {
         width: 83%;
         margin: auto auto 50px;
+        position: relative;
         left: -2px;
         font-size: 15px;
     }
