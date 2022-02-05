@@ -1,10 +1,11 @@
 @media only screen and (max-width: 500px) {
     body {
+        margin: 60px auto 110px;
         font-size: 15px;
     }
 
     #titleArea {
-        margin: 60px auto 20px;
+        margin: auto auto 20px;
     }
 
     #titleArea p:nth-child(1) {
@@ -18,11 +19,12 @@
 
 @media only screen and (min-width: 500px) {
     body {
+        margin: 100px auto 150px;
         font-size: 17px;
     }
 
     #titleArea {
-        margin: 100px auto 20px;
+        margin: auto auto 20px;
     }
 
     #titleArea p:nth-child(1) {
@@ -44,7 +46,6 @@
 
 body {
     width: 95%;
-    margin: auto;
     font-family: Lora, serif;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
