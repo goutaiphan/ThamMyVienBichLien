@@ -26,10 +26,10 @@
 
 #serviceBody {
     margin: auto auto 25px;
+    width: 80%;
 }
 
 #service {
-    height: max-content;
     margin: auto auto 15px;
     padding: 15px 0 2px;
     text-align: center;
