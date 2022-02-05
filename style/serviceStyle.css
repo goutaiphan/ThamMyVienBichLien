@@ -31,14 +31,14 @@
 #service {
     height: max-content;
     margin: auto auto 15px;
-    padding: 3px 0;
+    padding: 15px 0 2px;
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 3px;
 }
 
 #serviceVI {
-    margin: 12px auto -8px;
+    margin: auto auto -8px;
     font-size: 15px;
     color: #376891;
 }
