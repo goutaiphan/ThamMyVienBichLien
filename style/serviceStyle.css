@@ -32,12 +32,13 @@
     height: 72px;
     margin: auto auto 15px;
     text-align: center;
-    border: 1px solid darkgray;
+    border: 1px solid lightgray;
     border-radius: 3px;
 }
 
 #serviceVI {
     font-size: 15px;
+    color: #36648B;
 }
 
 #serviceEN {
