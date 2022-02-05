@@ -5,7 +5,7 @@ Lip surgery
 Breast surgery
 Body surgery
 Medical surgery
-Utility
+Utility service
 |
 Facial rejuvenation
 	Forehead skin lifting
@@ -22,9 +22,9 @@ Eye surgery
 	Outer eye angle widening
 Nose surgery
 	Korean cartilage rhinoplasty
+	Thai cartilage rhinoplasty
 	American cartilage rhinoplasty
 	French cartilage rhinoplasty
-	Thai cartilage rhinoplasty
 	Self cartilage rhinoplasty
 	Artifical cartilage rhinoplasty
 	Rib cartilage rhinoplasty
@@ -57,7 +57,7 @@ Medical surgery
 	Tumor surgery
 	Nephrolithiasis surgery
 	Inguinal hernia surgery
-Utility
+Utility service
 	Accommodation
 	Caregiver
 	Car

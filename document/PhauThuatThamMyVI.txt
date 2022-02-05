@@ -5,7 +5,7 @@ Phẫu thuật vùng môi
 Phẫu thuật vùng ngực
 Phẫu thuật vùng thân
 Phẫu thuật y tế
-Tiện ích
+Dịch vụ tiện ích
 |
 Trẻ hóa khuôn mặt
 	Căng da trán
@@ -22,9 +22,9 @@ Phẫu thuật vùng mắt
 	Mở rộng góc mắt ngoài
 Phẫu thuật vùng mũi
 	Sửa mũi sụn Hàn Quốc
+	Sửu mũi sụn Thái Lan
 	Sửa mũi sụn Mỹ
 	Sửa mũi sụn Pháp
-	Sửu mũi sụn Thái Lan
 	Sửa mũi sụn tự thân
 	Sửa mũi sụn nhân tạo
 	Sửa mũi sụn sườn
@@ -56,7 +56,7 @@ Phẫu thuật y tế
 	Mổ u bướu
 	Mổ sỏi thận, sỏi niệu quản
 	Mổ thoát vị vùng bẹn
-Tiện ích
+Dịch vụ tiện ích
 	Phòng lưu trú
 	Người chăm sóc
 	Xe đưa đón
