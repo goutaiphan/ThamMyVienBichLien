@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'PlayfairDisplay';
-    src: url('../asset/PlayfairDisplay.ttf');
+    src: url('../font/PlayfairDisplay.ttf');
 }
 
 @font-face {
     font-family: 'TimesNewRoman';
-    src: url('../asset/TimesNewRoman.ttf');
+    src: url('../font/TimesNewRoman.ttf');
 }
 
 @font-face {
     font-family: 'FairProsper';
-    src: url('../asset/FairProsper.ttf')
+    src: url('../font/FairProsper.ttf')
 }
 
 @font-face {
     font-family: 'RobotoSlab';
-    src: url('../asset/RobotoSlab.ttf')
+    src: url('../font/RobotoSlab.ttf')
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url('../asset/Lora.ttf')
+    src: url('../font/Lora.ttf')
 }

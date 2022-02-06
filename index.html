@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Thẩm mỹ viện Bích Liên</title>
-    <link href="style/baseStyle.css" rel="stylesheet">
-    <link href="style/fontStyle.css" rel="stylesheet">
-    <link href="style/animationStyle.css" rel="stylesheet">
-    <link href="style/introStyle.css" rel="stylesheet">
-    <link href="style/menuStyle.css" rel="stylesheet">
-    <link href="style/serviceStyle.css" rel="stylesheet">
+    <link href="stylesheet/baseStyle.css" rel="stylesheet">
+    <link href="stylesheet/fontStyle.css" rel="stylesheet">
+    <link href="stylesheet/animationStyle.css" rel="stylesheet">
+    <link href="stylesheet/introStyle.css" rel="stylesheet">
+    <link href="stylesheet/menuStyle.css" rel="stylesheet">
+    <link href="stylesheet/serviceStyle.css" rel="stylesheet">
+
+    <link href="javascript/baseScript.js" rel="script">
+    <link href="javascript/functionScript.js" rel="script">
 
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="thammyvienbichlien.com"/>
@@ -43,82 +46,3 @@
 
 <div id="serviceArea"></div>
 </html>
-
-<script>
-    //document.write(String(window.innerWidth));
-    let serviceData = getFileData('document/PhauThuatThamMyVI.txt');
-    let serviceParent = getFileArray(serviceData, 0);
-    let serviceChild = getFileArray(serviceData, 1);
-
-    let serviceDataEN = getFileData('document/PhauThuatThamMyEN.txt');
-    let serviceChildEN = getFileArray(serviceDataEN, 1);
-
-    let serviceArea = document.getElementById('serviceArea');
-
-    console.log(deAccent(serviceParent[0]));
-
-
-    for (let i = 0; i < serviceParent.length; i++) {
-        let serviceHead = document.createElement('img');
-        serviceArea.appendChild(serviceHead);
-        serviceHead.id = 'serviceHead';
-        serviceHead.src = `asset/Service_${deAccent(serviceParent[i])}.png`;
-
-        let serviceBody = document.createElement('div');
-        serviceBody.id = 'serviceBody';
-        serviceArea.appendChild(serviceBody);
-
-        for (let j = 0; j < serviceChild[i].length; j++) {
-            let service = document.createElement('div');
-            let serviceVI = document.createElement('p');
-            let serviceEN = document.createElement('p');
-            serviceBody.appendChild(service);
-            service.appendChild(serviceVI);
-            service.appendChild(serviceEN);
-
-            service.id = 'service';
-            serviceVI.id = 'serviceVI';
-            serviceEN.id = 'serviceEN';
-            serviceVI.innerHTML = serviceChild[i][j];
-            serviceEN.innerHTML = serviceChildEN[i][j];
-        }
-    }
-
-    function getFileArray(fileData, fileType) {
-        let fileTitle = fileData.split('|')[0];
-        let fileContent = fileData.split('|')[1];
-
-        let fileParent = fileTitle.replaceAll('<br>', ' ')
-            .split('\n').filter(item => item);
-
-        let fileChild = [];
-        for (let i = 0; i < fileParent.length; i++) {
-            let startIndex = fileContent.indexOf(fileParent[i]) + fileParent[i].length;
-            let endIndex = i === fileParent.length - 1
-                ? fileContent.length
-                : fileContent.indexOf(fileParent[i + 1]);
-            let array = fileContent.substring(startIndex, endIndex).split('\n').filter(item => item);
-            fileChild.push(array);
-        }
-
-        return fileType === 0
-            ? fileParent
-            : fileChild;
-    }
-
-    function deAccent(string) {
-        let normalization = string.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-        return normalization.replace(/ \D/g, function (match) {
-            return match.toUpperCase().replaceAll(' ', '');
-        });
-    }
-
-    function getFileData(url) {
-        let request = new XMLHttpRequest();
-        request.open('get', url, false);
-        request.send(null);
-        return request.responseText
-            .replaceAll('\t', '')
-            .replaceAll('\r\n', '\n');
-    }
-</script>
