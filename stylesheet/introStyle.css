@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media screen and (hover: none) and (pointer: coarse) {
     #intro {
         width: 83%;
         margin: auto auto 45px;
@@ -14,7 +14,8 @@
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media screen and (hover: hover) and (pointer: fine),
+(hover: none) and (pointer: coarse) and (min-width: 500px) {
     #intro {
         width: 550px;
         margin: auto auto 70px;

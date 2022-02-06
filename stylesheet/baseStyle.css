@@ -1,11 +1,7 @@
-@media only screen and (max-width: 500px) {
+@media screen and (hover: none) and (pointer: coarse) {
     body {
         margin: 60px auto 90px;
         font-size: 15px;
-    }
-
-    #titleArea {
-        margin: auto auto 20px;
     }
 
     #titleArea p:nth-child(1) {
@@ -17,14 +13,11 @@
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media screen and (hover: hover) and (pointer: fine),
+(hover: none) and (pointer: coarse) and (min-width: 500px) {
     body {
         margin: 100px auto 150px;
         font-size: 17px;
-    }
-
-    #titleArea {
-        margin: auto auto 20px;
     }
 
     #titleArea p:nth-child(1) {
@@ -42,13 +35,21 @@
     top: 0;
     bottom: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
     width: 95%;
     font-family: Lora, serif;
     text-align: center;
-    -webkit-tap-highlight-color: transparent;
+}
+
+#titleArea {
+    margin: auto auto 20px;
+    white-space: nowrap;
 }
 
 #titleArea p:nth-child(1) {
@@ -62,7 +63,6 @@ body {
 #titleArea p:nth-child(2) {
     margin: 30px auto 0;
     font-family: FairProsper, serif;
-    white-space: nowrap;
     background: linear-gradient(to right, #36648B 0%, #4F94CD 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
