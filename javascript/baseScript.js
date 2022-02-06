@@ -1,16 +1,18 @@
 //document.write(String(window.innerWidth));
+import {getFileData, getFileArray, deAccent} from './functionScript.js';
+
 let serviceArea = document.getElementById('serviceArea');
-let serviceData = getFileData('document/PhauThuatThamMyVI.txt');
+let serviceData = getFileData('../document/PhauThuatThamMyVI.txt');
 let serviceParent = getFileArray(serviceData, 0);
 let serviceChild = getFileArray(serviceData, 1);
-let serviceDataEN = getFileData('document/PhauThuatThamMyEN.txt');
+let serviceDataEN = getFileData('../document/PhauThuatThamMyEN.txt');
 let serviceChildEN = getFileArray(serviceDataEN, 1);
 
 for (let i = 0; i < serviceParent.length; i++) {
     let serviceHead = document.createElement('img');
     serviceArea.appendChild(serviceHead);
     serviceHead.id = 'serviceHead';
-    serviceHead.src = `asset/Service_${deAccent(serviceParent[i])}.png`;
+    serviceHead.src = `../media/Service_${deAccent(serviceParent[i])}.png`;
 
     let serviceBody = document.createElement('div');
     serviceBody.id = 'serviceBody';

@@ -1,3 +1,5 @@
+export {getFileArray, getFileData, deAccent};
+
 function getFileArray(fileData, fileType) {
     let fileTitle = fileData.split('|')[0];
     let fileContent = fileData.split('|')[1];
