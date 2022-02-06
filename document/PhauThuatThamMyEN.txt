@@ -10,7 +10,7 @@ Utility service
 Facial rejuvenation
 	Forehead skin lifting
 	Temporal skin lifting
-	Cheeks skin lifting
+	Cheek skin lifting
 	Chin skin lifting
 	Neck skin lifting
 	Eyebrow lifting
